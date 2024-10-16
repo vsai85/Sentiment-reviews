@@ -52,7 +52,7 @@ with col2:
 
         # Display the result
             if prediction == 0:
-                st.success('Sentiment: Negative')
+                st.warning('Sentiment: Negative')
                 
 
             else:
